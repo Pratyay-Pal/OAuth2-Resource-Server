@@ -12,7 +12,7 @@ How to get JWT Token-
 - Run Keycloak in Linux server
 - Create a new client in Keycloak and keep note of the Client Credentials
 - Assign it a Role of ADMIN(necessary as the code expects it, change code if not required)
-- Send a POST request to http://localhost:***Keycloak Port***/realms/***Keycloak Realm***/protocol/openid-connect/token with the body as urlencoded-<br>
+- Send a POST request to http://localhost: ***Keycloak Port***/realms/***Keycloak Realm***/protocol/openid-connect/token with the body as urlencoded-<br>
     - client_id:***Client ID*** <br>
     - client_secret:***Client Secret*** <br>
     - scope:openid email profile <br>
